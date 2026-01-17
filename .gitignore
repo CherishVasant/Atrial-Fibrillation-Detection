@@ -1,0 +1,27 @@
+# Virtual environments
+ecg_env/
+venv/
+.env/
+
+# Datasets
+ECG_Dataset/
+ECG_Processed_Dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts
+*.h5
+*.ckpt
+*.weights
+logs/
+tensorboard/
+
+# OS files
+.DS_Store
+Thumbs.db
