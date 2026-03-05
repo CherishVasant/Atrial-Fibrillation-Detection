@@ -7,6 +7,9 @@ venv/
 ECG_Dataset/
 ECG_Processed_Dataset/
 ECG_Processed_Final/
+08_checkpoints/
+09_Outputs/
+10_Outputs/
 
 # Python cache
 __pycache__/
