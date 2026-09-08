@@ -3,13 +3,22 @@ ecg_env/
 venv/
 .env/
 
-# Datasets
-ECG_Dataset/
-ECG_Processed_Dataset/
-ECG_Processed_Final/
-08_checkpoints/
-09_Outputs/
-10_Outputs/
+# Datasets — raw, processed, and generated outputs (all large, all regenerable)
+dataset/
+
+# Large binary artifacts, in case any land outside dataset/
+*.dat
+*.npy
+*.mat
+*.h5
+*.hdf5
+*.keras
+*.ckpt
+*.pt
+*.pth
+*.weights
+logs/
+tensorboard/
 
 # Python cache
 __pycache__/
@@ -18,13 +27,6 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Model artifacts
-*.h5
-*.ckpt
-*.weights
-logs/
-tensorboard/
 
 # OS files
 .DS_Store
